@@ -33,11 +33,11 @@ def show(img):
 
 # DOWNLOADED TENSORFLOW FILE
 # Downsizing the image makes it easier to work with.
-original_img = download(url, max_dim=500)
-show(original_img)
+#original_img = download(url, max_dim=500)
+#show(original_img)
 
 # LOCAL FILE
-#original_img = np.array(PIL.Image.open('C:/Users/jonse/OneDrive/Dokumenter/Code/Machine learning/MY_PFP.png'))
+original_img = np.array(PIL.Image.open('C:/Users/jonse/OneDrive/Dokumenter/Code/Machine learning/MY_PFP.png'))
 
 
 
